@@ -110,7 +110,7 @@ function Page2() {
       </div>
 
       <div className="flex justify-evenly flex-col items-center gap-10 sm:flex-row flex-wrap">
-        {products1.map((data, index) => (
+        {products1?.map((data, index) => (
           <div key={index} className="w-[300px] mx-10">
             <Image width={300} height={100} alt={`Image of ${data.title}`} src={data.image} />
             <div className="w-full px-2 mb-2 flex items-center justify-between">
@@ -136,14 +136,14 @@ function Page2() {
         </div>
 
         <div className="flex flex-col md:flex-row mt-16 items-center justify-center">
-          {progressIcons.map((data, index) => (
+          {progressIcons?.map((data, index) => (
             <div key={index}>
               <div className="flex flex-col items-center">
                 <Image width={80} height={100} alt={data.title} src={data.image} />
                 <p>{data.title}</p>
                 <p>{data.desc}</p>
               </div>
-              {progressIcons.length !== index + 1 && (
+              {progressIcons?.length !== index + 1 && (
                 <>
                   <hr className="hidden md:block md:w-[3rem]" />
                   <hr className="h-[50px] md:hidden bg-[#2e2d2d] w-[1px]" />
