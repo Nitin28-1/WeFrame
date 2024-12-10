@@ -137,7 +137,7 @@ function Page2() {
 
         <div className="flex flex-col md:flex-row mt-16 items-center justify-center">
           {progressIcons?.map((data, index) => (
-            <div key={index}>
+            <div key={index} className='flex flex-col md:flex-row items-center'>
               <div className="flex flex-col items-center">
                 <Image width={80} height={100} alt={data.title} src={data.image} />
                 <p>{data.title}</p>
