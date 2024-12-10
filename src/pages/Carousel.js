@@ -44,7 +44,7 @@ const Carousel = ({ products }) => {
                     alt={product.title}
                     width={300}
                     height={100}
-                   
+                            
                     className=" object-fill w-[300px]   rounded-lg"
                   />
                   <div className="w-full mb-2 flex items-cente justify-between"> 

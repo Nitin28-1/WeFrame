@@ -119,7 +119,7 @@ function Page2() {
         {products1.map((data,index)=>(
          
          <div className='w-[300px] mx-10'>
-            <Image   width={300}
+            <Image   width={300}    alt="image"
                     height={100} src={data.image}   />
              
             <div className="w-full  px-2 mb-2 flex items-cente justify-between"> 
@@ -152,7 +152,7 @@ function Page2() {
             progressIcons.map((data,index)=>(
                <>
                 <div key={index} className='flex flex-col items-center'>
-                   <Image   width={80}
+                   <Image   width={80}    alt="image"
                     height={100} src={data.image}  />
                     <p>{data.title}</p>
                     <p>{data.desc}</p>

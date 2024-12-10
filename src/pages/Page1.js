@@ -18,7 +18,7 @@ function page1() {
          
          <div className=' w-[100%] mr-1 sm:h-[85%]   flex justify-center md:none lg:w-[50%] xl:w-[50%] md:w-[40%]  '>
           
-          <Image   width={300}
+          <Image   width={300}    alt="image"
                     height={100} src='/page1image.png'    className=' w-[90%] sm:w-[100%] sm:h-[90%] md:w-[100%] md:h-[340px]  lg:w-[90%] lg:h-[95%]    object-cover ml-10 rounded-lg'/>
          </div>
 
@@ -39,13 +39,13 @@ function page1() {
                 <div className='flex gap-5 '>
                 
                 <div className='flex gap-2 items-center '>
-                   <Image   width={20}
+                   <Image   width={20}    alt="image"
                     height={100} src='/Capa_1.png'  />
                   <span >20 <sup  className='font-semibold'>cm</sup></span>
                 </div>
 
                 <div className='flex gap-2 items-center'>
-                   <Image   width={20}
+                   <Image   width={20}    alt="image"
                     height={100} src='/Frame.png'    />
                   <span >50 <sup  className='font-semibold'>cm</sup></span>
                 </div>

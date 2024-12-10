@@ -8,7 +8,7 @@ function Page3() {
         <div className='w-full flex items-center mt-10 gap-7 md:gap-0 justify-around md:flex-row flex-col'>
            
            <div className='w-[90%]  md:w-[45%] bg items-center'>
-          <Image   width={300}
+          <Image   width={300}    alt="image"
                     height={100} src="/BUFFET.png"    className='w-[300rem] h-[300px] md:w-[2500px] md:h-[23rem] lg:h-[17rem] ml-3 rounded-lg' alt="image" />
            </div>
 
@@ -30,7 +30,7 @@ function Page3() {
         '>
        
           <div className='flex w-[100%] flex-col items-center gap-4'>
-          <Image   width={300}
+          <Image   width={300}    alt="image"
                     height={100} src='/logowebsie.png'     className='w-[100px] object-contain   h-[100px]'/>
 
           <div className='flex w-[80%] justify-evenly gap-3 text-[10px] '>
@@ -67,7 +67,7 @@ function Page3() {
           <div className='flex flex-col mb-10  items-center w-[40%] mr-10 gap-2'>
 
             <p className='font-semibold'>NOUS SUIVRE</p>
-            <Image   width={100}
+            <Image   width={100}    alt="image"
                     height={100} src='/footericons.png'      />
               
           </div>
