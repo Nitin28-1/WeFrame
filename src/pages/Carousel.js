@@ -26,15 +26,15 @@ const Carousel = ({ products }) => {
           transform: `translateX(-${currentIndex * 100}%)`,
         }}
       >
-        {Array.from({ length: totalSlides }).map((_, slideIndex) => (
+        {Array?.from({ length: totalSlides })?.map((_, slideIndex) => (
           <div
             key={slideIndex}
             className="grid grid-cols-1  sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-5 w-full h-[380px]  px-14 flex-shrink-0"
             style={{ flex: "0 0 100%" }}
           >
             {products
-              .slice(slideIndex * itemsPerSlide, slideIndex * itemsPerSlide + itemsPerSlide)
-              .map((product, index) => (
+              ?.slice(slideIndex * itemsPerSlide, slideIndex * itemsPerSlide + itemsPerSlide)
+              ?.map((product, index) => (
                 <div
                   key={index}
                   className="bg-[#FDFBFB] w-[300px] px-4  flex gap-2 flex-col   text-center"
