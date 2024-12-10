@@ -80,9 +80,9 @@ function Navbar() {
       
       <div className=' hidden md:flex  w-full md:h-[37px] lg:h-[40px] xl:h-[39px] justify-evenly overflow-x-hidden'>
       {
-        ExtraData.map((data)=>
+        ExtraData.map((data,index)=>
         (
-            <div className='text-[#4c4d4fe8] md:text-[0.5rem] lg:text-[12px] xl:text-[14px] hover:text-blue-700   hover:border-b-2 hover:border-blue-600 font-semibold'>{data}</div>
+            <div key={index} className='text-[#4c4d4fe8] md:text-[0.5rem] lg:text-[12px] xl:text-[14px] hover:text-blue-700   hover:border-b-2 hover:border-blue-600 font-semibold'>{data}</div>
         ))
       }
      </div>
