@@ -150,7 +150,7 @@ function Page2() {
           {
             progressIcons.map((data,index)=>(
                <>
-                <div className='flex flex-col items-center'>
+                <div key={index} className='flex flex-col items-center'>
                    <img src={data.image}  />
                     <p>{data.title}</p>
                     <p>{data.desc}</p>
