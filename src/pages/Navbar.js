@@ -32,7 +32,8 @@ function Navbar() {
     <div className='bg-[#FFFFF] md:h-[110px] border-b-2  '> 
         <div className='flex pt-2 pb-2 items-center justify-evenly gap-10'>
           <div className='w-[100px] md:w-[90px] '>
-            <img  src='/logowebsie.png' alt='image' />
+            <Image  src='/logowebsie.png'   width={100}
+                    height={100} alt='image' />
           </div>
 
           <div className=' w-[50%] sm:w-[50%] md:w-[30%] lg:w-[40%] flex rounded-md xl:w-[50%]  bg-[#F9FAFB] items-center h-[50px]'> 

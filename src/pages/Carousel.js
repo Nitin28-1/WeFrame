@@ -39,9 +39,11 @@ const Carousel = ({ products }) => {
                   key={index}
                   className="bg-[#FDFBFB] w-[300px] px-4  flex gap-2 flex-col   text-center"
                 >
-                  <img
+                  <Image
                     src={product.image}
                     alt={product.title}
+                    width={300}
+                    height={100}
                    
                     className=" object-fill w-[300px]   rounded-lg"
                   />
